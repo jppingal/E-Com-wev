@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-
+import { CartContext } from "../global/CartContext";
 const Navbar = () => {
+  const {qty} = useContext(CartContext);
   return (
     <>
       <nav>
@@ -16,7 +17,7 @@ const Navbar = () => {
               <span className="shoppingCart">
                 <i className="fas fa-cart-plus"></i>
               </span>
-              <span className="cartCount">0</span>
+              <span className="cartCount">{qty}</span>
             </Link>
           </li>
         </ul>

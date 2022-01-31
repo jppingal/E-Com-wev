@@ -22,17 +22,17 @@ export const ProductContextProvider = (props) => {
     // krta hai useState or is function ke thru ham is array ke objects ko ham
     // Products component me map mathod se  access kr sakte hai
     [
-      {id: 1, name: "Camera", price: 1100, image: camera, status: "hot",},
+      {id: 1, name: "Camera", price: 1100, image: camera, status: "hot" },
       {id: 2, name: "Glass", price: 1100, image: glass, status: "hot" },
       {id: 3, name: "Head Phone", price: 1500, image: headphone, status: "new",},
       {id: 4, name: "iPhone", price: 45000, image: iphone, status: "new" },
       {id: 5, name: "Mac Laptop", price: 75000, image: macLaptop, status: "hot",},
       {id: 6, name: "Micro Phone", price: 4500, image: microphone, status: "new",},
-	  {id: 7, name: "Digital Camera", price: 2500, image: degitalcamera, status: "hot",},
-      {id: 8, name: "Ring", price: 500, image: ring, status: "hot"},
-      {id: 9, name: "Watch", price: 900, image: watch, status: "hot"},
-      {id: 10, name: "Shoes", price: 1100, image: shoes, status: "hot"},
-      {id: 11, name: "Perfume", price: 1100, image: perfume, status: "hot"},
+      {id: 7, name: "Digital Camera", price: 2500, image: degitalcamera, status: "hot",},
+      {id: 8, name: "Ring", price: 500, image: ring, status: "hot" },
+      {id: 9, name: "Watch", price: 900, image: watch, status: "hot" },
+      {id: 10, name: "Shoes", price: 1100, image: shoes, status: "hot" },
+      {id: 11, name: "Perfume", price: 1100, image: perfume, status: "hot" },
       {id: 12, name: "White Shoes", price: 1100, image: whiteshoes, status: "hot",},
     ]
   );
